@@ -1,0 +1,9 @@
+Example-
+
+go run ./Exercise_Files/Ch01/01_02/welcome.go
+
+
+Creates a file within the base directory to run the file-
+
+go build ./Exercise_Files/Ch01/01_02/welcome.go
+./welcome
