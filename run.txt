@@ -1,4 +1,4 @@
-Example-
+Example of how to run a file-
 
 go run ./Exercise_Files/Ch01/01_02/welcome.go
 
