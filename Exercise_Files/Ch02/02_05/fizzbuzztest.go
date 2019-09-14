@@ -13,16 +13,15 @@ func main() {
 		if i%3 == 0 && i%5 == 0 {
 			fmt.Println("fizzbuzz")
 			continue;
-		}
-		if i%3 == 0 {
+		} else if i%3 == 0 {
 			fmt.Println("fizz")
 			continue;
-		}
-		if i%5 == 0 {
+		} else if i%5 == 0 {
 			fmt.Println("buzz")
 			continue;
+		} else {
+			fmt.Println(i)
 		}
-		fmt.Println(i)
 	}
 	
 	fmt.Println("-----")

@@ -1,5 +1,5 @@
 Example of how to run a file-
-go run ./Exercise_Files/Ch01/01_02/welcome.go
+go run ./Exercise_Files/Ch02/02_05/fizzbuzztest.go
 
 Creates a file within the base directory to run the file-
 go build ./Exercise_Files/Ch01/01_02/welcome.go
