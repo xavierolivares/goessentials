@@ -20,4 +20,12 @@ func main() {
 		fmt.Printf("many")
 	}
 	
+	switch {
+	case x > 100:
+		fmt.Println("x is very big")
+	case x > 10:
+		fmt.Println("x is big")
+	default:
+		fmt.Println("x is small")
+	}
 }
