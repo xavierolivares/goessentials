@@ -12,13 +12,13 @@ func main() {
 	for i := 1; i < 16; i++ {
 		if i%3 == 0 && i%5 == 0 {
 			fmt.Println("fizzbuzz")
-			continue;
+			// continue;
 		} else if i%3 == 0 {
 			fmt.Println("fizz")
-			continue;
+			// continue;
 		} else if i%5 == 0 {
 			fmt.Println("buzz")
-			continue;
+			// continue;
 		} else {
 			fmt.Println(i)
 		}
